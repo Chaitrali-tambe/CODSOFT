@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;1,500&display=swap');
+
+*,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --cherry:rgb(171, 41, 67);
+    --crimson:rgb(190, 68, 92);
+    --cream: #fffad5;
+    --black: #2a2a2a;
+}
+
+
+.sidebar{
+    padding: 10px 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cherry);
+    color: var(--cream);
+    width: 100%;
+    height: fit-content;
+    
+}
+
+
+
+.sidebar nav{
+    padding: 43px;
+
+}
+
+.links>ul{
+    display: flex;
+    gap: 40px;
+}
+
+
+.links ul a{
+    text-decoration: none;
+    color: var(--cream);
+}
+
+.links li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.links li:hover{
+    font-weight: bold;
+    color: #f976a4;
+}
+
+
+
+/* **************** */
+
+/* About me Page */
+
+/* **************** */
+
+
+#main{
+    width: 100%;
+    height: 90vh;
+    background-color: var(--black);
+}
+
+.information{
+    height: 78vh;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.dev-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--cream);
+}
+
+
+.hello{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-me{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.buttons{
+    padding: 40px 0;
+    margin-bottom: 10px;
+}
+
+.buttons button{
+    background-color: var(--cherry);
+    border: none;
+    color: var(--cream);
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.dev-pic img{
+    height: 58vh;
+}
+
+.dev-info p{
+    font-size: 20px;
+}
+
+
+/* **************** */
+
+/* My Skills Page */
+
+/* **************** */
+
+#my-intro{
+    display: flex;
+    align-items: center;
+    padding: 40px 50px;
+    background-color: var(--black);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.section{
+    margin-bottom: 2rem;
+}
+
+.heading{
+    color: var(--cream);
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+
+.content{
+    color: var(--cream);
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+}
+
+.content span{
+    font-weight: bold;
+}
+
+.skill-measure h4{
+    color: var(--cream);
+    margin-top: 20px;
+    
+}
+
+.skill-measure div{
+    margin-top: 15px;
+    background-color: rgb(167, 167, 167);
+    width: 350px;
+    height: 10px;
+    border-radius: 5px;
+ 
+}
+
+.skill-measure #html{
+    width: 330px;
+    height: 10px;
+    background-color: rgb(244, 50, 89);
+}
+
+.skill-measure #css{
+    width: 315px;
+    height: 10px;
+    background-color: rgb(244, 50, 89);
+}
+
+.skill-measure #js{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(244, 50, 89);
+}
+
+.skill-measure #bootstrap{
+    width: 260px;
+    height: 10px;
+    background-color: rgb(244, 50, 89);
+}
+
+.skill-measure #canva{
+    width: 250px;
+    height: 10px;
+    background-color: rgb(244, 50, 89);
+}
+
+
+.skill-measure #figma{
+    width: 220px;
+    height: 10px;
+    background-color: rgb(244, 50, 89);
+}
+
+
+/* **************** */
+
+/* My Projects Page */
+
+/* **************** */
+
+
+#project-main{
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+#project-main h1{
+    color: var(--cream);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.section{
+    padding: 20px 0;
+}
+
+.content-layout{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.card{
+    width: 350px;
+    height: 220px;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+    border: 1px solid rgb(84, 84, 84);
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px rgb(84, 84, 84);
+    padding: 10px;
+}
+
+.card img{
+    height: 70%;
+    border-radius: 20px;
+}
+
+.card a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--cream);
+}
+
+/* **************** */
+
+/* Contact Page */
+
+/* **************** */
+
+
+
+#contact-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    width: 100%;
+    height: 90vh;
+
+}
+
+.contact-form{
+    width: 27vw;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 30px;
+    border-radius: 30px;
+    background-color: var(--crimson);
+    
+}
+
+.contact-form input{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact-form button{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    color: var(--crimson);
+    background-color: var(--cream);
+
+}
+
+.form-check{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-check .check-box{
+    width: 7%;
+    margin: 0 10px;
+
+}
+
+.form-check input:checked{
+    accent-color: #ffb7d0;
+}
+
+.form-check label{
+    color: var(--cream);
+}
+
+
+.profiles{
+    background-color: var(--crimson);
+    padding: 30px 50px;
+    width: 27vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.profiles img{
+    width: 30px;
+}
+
+
+
+/* ********************** */
+
+/* footer part */
+
+/* ********************** */
+
+
+.footer{
+    background-color: var(--cherry);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--cream);
+    font-weight: 300;
+    padding: 5% 0;
+    
+}
+
+
+
+.footer-lists{
+    width: 60vw;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--cream);
+}
+
+.footer-lists ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    
+    
+}
+
+
+.footer-lists li{
+    list-style: none;
+    
+}
+
+.footer-content p{
+    margin-top: 1rem;
+}
